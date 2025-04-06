@@ -1,0 +1,215 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 202, 238);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+.container-store {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+    height: auto;
+    margin-top: 25px;
+    width: 87%;
+}
+
+
+header {
+    background-color: #07465f;
+    box-shadow: 2px 2px 25px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+header>h2 {
+    margin: 0 15px 0 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.li-1 {
+    text-decoration-line: underline;
+}
+
+.li-1:hover {
+    text-decoration: none;
+}
+
+nav li {
+    display: block;
+    margin-left: 60px;
+    font-size: 1.4rem;
+    padding: 12px;
+    border-radius: 45px;
+}
+
+nav li:hover {
+    box-shadow: 2px 1px 1px rgb(179, 202, 216);
+    transition-delay: 115ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.item {
+    width: 500px;
+    height: 375px;
+    margin: 20px 40px 0px 30px;
+}
+
+.p1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}
+
+.p3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: #005aad;
+}
+
+.login {
+    display: block;
+    background-color: #5d8ea5;
+    border: none;
+    border-radius: 10px;
+}
+
+.login a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: bisque;
+}
+
+.login:hover {
+    background-color: #3b6d85;
+}
+
+.shop {
+    font-family: sans-serif;
+    background-color: #5d8ea5;
+    border: none;
+    border-radius: 10px;
+}
+
+.shop a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: bisque;
+}
+
+.shop:hover {
+    background-color: #3b6d85;
+}
+
+.container3 {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container3:hover .iten {
+    animation-play-state: paused;
+    filter: grayscale(1);
+}
+
+.container3 .iten:hover {
+    filter: grayscale(0);
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.carrossel .iten {
+    width: 135px;
+    height: 75px;
+}
+
+.iten {
+    position: absolute;
+    right: 85%;
+    animation: autoRun 6s linear infinite;
+    animation-delay: var(--delay);
+    cursor: pointer;
+}
+
+@keyframes autoRun {
+    from {
+        right: 85%;
+    }
+
+    to {
+        right: 90px;
+    }
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    margin: 75px 10px 10px 10px;
+    text-align: justify;
+    width: 700px;
+}
+
+#post {
+    width: 400px;
+    height: 500px;
+}
+
+.content {
+    display: flex;
+}
+
+aside {
+    margin-top: 65px;
+}
+
+.video-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+video {
+    background-color: rgb(34, 31, 31);
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}

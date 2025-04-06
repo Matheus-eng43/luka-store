@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Logando de conta</title>
+</head>
+
+<body class="forms">
+    <div class="container-login">
+        <div>
+            
+            <article>
+                <form action="">
+                    <div>
+                        <h1>Login de Conta</h1>
+                    </div>
+                    <div>
+                        <label for="fname">Nome completo:</label><br>
+                        <input type="text" required><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" required><br><br>
+                        <label for="dnascimento">Data de nascimento:</label><br>
+                        <input type= "date" required><br><br>
+                        <label for="cpf">CPF</label><br>
+                        <input type="text" required><br><br>
+                        <label for="fsenha">Nova senha</label><br>
+                        <input type="password" required><br><br>
+                        <label for="fsenha">Estado:</label><br>
+                        <select id="estado"  name="estado">
+                            <option value="">Selecione um Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div class="forms-b">
+                        <button class="refazer" type="reset">Refazer</button>
+                        <button class="submit" type="submit"><a href="tabela.html">Entregar</a></button>
+                    </div>
+                </form>
+            </article>
+        </div>
+        <button class="voltar"><a href="shop.html">voltar</a></button>
+    </div>
+</body>
+
+</html>

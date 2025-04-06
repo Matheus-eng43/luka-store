@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 202, 238);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-image: url(img/img1tm2.jpg);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+    height: 90%;
+    width: 87%;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 85.1%;
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+section img {
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+}
+
+section a {
+    display: inline-block;
+    border-radius: 30px;
+    padding: 15px;
+    margin-left: 30px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(90deg, #2aa3db, #002330);
+}
+
+section a:hover {
+    background: linear-gradient(90deg, #0179b1, #02202b);
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(90deg, #0179b1d0, #02202bd0);
+    border-radius: 90% 0% 20px 0%;
+}
+
+.luka1 {
+    margin-top: 30px;
+    margin-left: 7px;
+    width: 400px;
+    height: 270px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.404);
+    box-shadow: 2px 2px 25px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+header>h2 {
+    margin: 0 15px 0 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.li-1 {
+    text-decoration-line: underline;
+}
+
+.li-1:hover {
+    text-decoration: none;
+}
+
+nav li {
+    display: block;
+    margin-left: 60px;
+    font-size: 1.4rem;
+    padding: 12px;
+    border-radius: 45px;
+}
+
+nav li:hover {
+    box-shadow: 2px 1px 1px rgb(179, 202, 216);
+    transition-delay: 115ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+

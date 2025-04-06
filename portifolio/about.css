@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a5cee4;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+header {
+    background-color: #ecfdff;
+    display: flex;
+    align-items: center;
+    width: 87%;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    color: black;
+    position: fixed;
+}
+
+header>h2 {
+    margin: 0 15px 0 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.li-1 {
+    text-decoration-line: underline;
+}
+
+.li-1:hover {
+    text-decoration: none;
+}
+
+nav li {
+    display: block;
+    margin-left: 60px;
+    font-size: 1.4rem;
+    padding: 12px;
+    border-radius: 45px;
+}
+
+nav li:hover {
+    box-shadow: 2px 1px 1px rgb(179, 202, 216);
+    transition-delay: 115ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    background-color: #ecfdff;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+    margin-top: 15px;
+    height: auto;
+    width: 87%;
+}
+
+section {
+    display: flex;
+    margin: 0px 10px 0px 25px;
+    text-align: justify;
+    align-items: center;
+    width: 72%;
+}
+
+p {
+    width: 570px;
+}
+
+h1 {
+    border-bottom: outset black 1px;
+}
+
+#all-star {
+    width: 14vw;
+    height: 36vh;
+}
+
+#points {
+    margin-left: 0px;
+} 
+
+#lakers {
+    width: 16vw;
+    height: 49vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    margin: 0px 10px 0px 10px;
+}
+
+.content {
+    display: flex;
+    margin-top: 70px;
+}
+
+.advertising {
+    width: 300px;
+    height: 500px;
+    position: fixed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}

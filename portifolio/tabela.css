@@ -1,0 +1,123 @@
+/* Stylização de tabela.html */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 202, 238);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-store {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px black;
+    height: 90%;
+    margin-top: 25px;
+    width: 87%;
+}
+
+header {
+    background-color: rgb(51, 77, 110);
+    box-shadow: 2px 2px 25px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+header>h2 {
+    margin: 0 15px 0 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.li-1 {
+    text-decoration-line: underline;
+}
+
+.li-1:hover {
+    text-decoration: none;
+}
+
+nav li {
+    display: block;
+    margin-left: 60px;
+    font-size: 1.4rem;
+    padding: 12px;
+    border-radius: 45px;
+}
+
+nav li:hover {
+    box-shadow: 2px 1px 1px rgb(179, 202, 216);
+    transition-delay: 115ms;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-store table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.container-store .Ttable {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 15px 40px 15px 40px;
+}
+
+tr:nth-child(even) {
+    background-color: #a9bfcc;
+}
+
+tr:hover {
+    background-color: #76abc7cc; 
+}
+
+.container-store .compra {
+    display: flex;
+    float: right;
+    margin: 20px 30px 0px 0px;
+}
+
+.compra {
+    background: linear-gradient(90deg, #4f7485, #58abc9);
+    border: none;
+    border-radius: 20px;
+} 
+
+.compra a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.compra:hover {
+    background: linear-gradient(90deg, #306644, #09c04f);
+}
